@@ -1,0 +1,16 @@
+button {
+    cursor: pointer;
+    border: solid 3px #888;
+    outline:none;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+}
+  
+div {
+    display: inline-block;
+    border: solid 3px #ddd;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+}

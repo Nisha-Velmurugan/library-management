@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <form action="submit" method="post">
+            <div class="register-page">
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter your name" name="name">
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter your email" name="email">
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter password" name="password">
+            <button class="submit" onclick="redirectToHomePage()">Submit</button>
+        </div>
+        </form>
+    </div>
+
+    <script>
+        function redirectToHomePage() {
+            window.location.href = "home.html";
+        }
+    </script>
+
+</body>
+</html>
